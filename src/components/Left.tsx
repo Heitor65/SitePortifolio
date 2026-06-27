@@ -5,7 +5,7 @@ import Redes from "@/components/Redes"
 
 export default function Left() {
     return (
-        <section className="flex flex-col gap-4 items-start">
+        <section className="flex flex-col">
             <Title />
             <NavBar />
             <Redes />

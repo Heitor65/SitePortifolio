@@ -8,7 +8,7 @@ export default function Home() {
           <Left />
         </section>
         <section className="flex flex-1 items-center justify-center p-8">
-          <p>is illo sequi a. Magni alias hic optio accusamus, cum pariatur atque molestias.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae cumque reprehenderit nesciunt reiciendis adipisci! Expedita, fuga vel quasi obcaecati architecto voluptatem voluptas eveniet facere atque ipsum necessitatibus provident, maxime iste!</p>
         </section>
       </main>
     </>
