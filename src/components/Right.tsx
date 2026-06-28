@@ -1,6 +1,6 @@
 import About from "@/components/About"
 import Portifolio from "@/components/Portifolio"
-import Experiences from "@/components/Experieces"
+import Experiences from "@/components/experieces"
 
 export default function Right() {
     return (
@@ -12,8 +12,8 @@ export default function Right() {
                 <Portifolio />
             </div>
             <div id="experiencias" className="flex flex-col gap-4 pb-8 scroll-mt-6">
-            <Experiences />
-        </div>
+                <Experiences />
+            </div>
         </section >
     );
 }
