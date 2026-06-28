@@ -1,6 +1,6 @@
 import About from "@/components/About"
 import Portifolio from "@/components/Portifolio"
-import Experiences from "@/components/Experieces"
+import Experiences from "@/components/Experiences"
 
 export default function Right() {
     return (
