@@ -14,7 +14,7 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   title: "Heitor Lima | Portfólio",
-  description: "Portfólio com visual inspirado em tons de zinc, cyan e green.",
+  description: "Desenvolvedor backend Python/TypeScript | Engenharia da Computação IBMEC",
 };
 
 export default function RootLayout({
