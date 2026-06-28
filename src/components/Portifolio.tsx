@@ -78,7 +78,7 @@ export default function Portifolio() {
                     </div>
 
                     <div className="mt-5 flex gap-3 text-sm font-medium text-zinc-200">
-                        <a href="https://github.com/Heitor65/br-holidays-api.git" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-zinc-300">
+                        <a href="https://github.com/Heitor65/SitePortifolio.git" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-zinc-300">
                             Repo
                         </a>
                     </div>
@@ -123,7 +123,7 @@ export default function Portifolio() {
                     </div>
 
                     <div className="mt-5 flex gap-3 text-sm font-medium text-zinc-200">
-                        <a href="https://github.com/Projetos-de-Extensao/PBE_26.1_8002_IV.git" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-zinc-300">
+                        <a href="https://github.com/Heitor65/brasildocs.git" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-zinc-300">
                             Repo
                         </a>
                     </div>
@@ -164,7 +164,7 @@ export default function Portifolio() {
                     </div>
 
                     <div className="mt-5 flex gap-3 text-sm font-medium text-zinc-200">
-                        <a href="https://github.com/Projetos-de-Extensao/PBE_26.1_8002_IV.git" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-zinc-300">
+                        <a href="https://github.com/Heitor65/br-holidays-api.git" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-zinc-300">
                             Repo
                         </a>
                     </div>
