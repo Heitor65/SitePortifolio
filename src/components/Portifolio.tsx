@@ -5,7 +5,7 @@ export default function Portifolio() {
 
                 <div className="flex h-44 items-center justify-center border-b border-zinc-700 bg-zinc-800">
                     <img
-                        src="/images/cards/br_holidays2.png"
+                        src="#"
                         alt="Project Image"
                         className="h-full w-full object-cover"
                     />
@@ -84,11 +84,12 @@ export default function Portifolio() {
                     </div>
                 </div>
             </div>
+
             <div className="w-80 overflow-hidden rounded-xl border border-zinc-700 bg-zinc-900">
 
                 <div className="flex h-44 items-center justify-center border-b border-zinc-700 bg-zinc-800">
                     <img
-                        src="/images/cards/br_holidays2.png"
+                        src="#"
                         alt="Project Image"
                         className="h-full w-full object-cover"
                     />
