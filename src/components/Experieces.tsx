@@ -4,7 +4,7 @@ export default function Experiences() {
             <h3>Analista de Inovação | Ibmec Jr Soluções (Atualmente)</h3>
             <p className="leading-7 text-zinc-300">
                 Atuo como desenvolvedor na Ibmec Jr Soluções (EJ), uma empresa júnior do Ibmec, onde participo de projetos reais no setor de inovações.
-                Já participei de reuniões com stackholders para levantamento de requisitos, participei da criação e manutenção do site instucional da empresa com React e FastAPI, e levantamento de requisitos para projeto ERP.
+                Já participei de reuniões com stackholders para levantamento de requisitos, participei da criação e manutenção do site instucional da empresa com <strong>React</strong> e <strong>FastAPI</strong>, e levantamento de requisitos para projeto ERP.
             </p>
         </section>
     );
