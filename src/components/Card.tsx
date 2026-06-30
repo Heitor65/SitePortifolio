@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-type projectCardProps = {
+type ProjectCardProps = {
     title: string;
     description: string;
     tech?: string[];
@@ -8,12 +8,12 @@ type projectCardProps = {
     image: string;
 }
 
-export default function ({ title,
+export default function Card({ title,
     description,
     tech = [],
     repo,
     image,
-}: projectCardProps) {
+}: ProjectCardProps) {
     return (
         <div className="relative h-44 border-b border-zinc-700 bg-zinc-800">
 
