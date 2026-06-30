@@ -1,5 +1,5 @@
 import Title from "@/components/Title"
-import NavBar from "@/components/NavBar"
+import NavBar from "@/components/Navbar"
 import Redes from "@/components/Redes"
 
 
