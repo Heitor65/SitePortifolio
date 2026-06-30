@@ -2,7 +2,7 @@ import Card from "@/components/Card"
 
 export default function Portifolio() {
     return (
-        <div className="flex flex-row gap-6 flex-wrap justify-center">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
 
             <Card title="API gestão de estágios" description="API REST para gestão de estágios, com autenticação por token, controle de acesso por perfis (Aluno, Secretaria e Coordenador), cadastro de documentação e fluxo de aprovação e reprovação de documentos." tech={["Python", "Django", "SQLite"]} repo="https://github.com/Projetos-de-Extensao/PBE_26.1_8002_IV.git" image="/images/cards/portifolio.png"
             />
