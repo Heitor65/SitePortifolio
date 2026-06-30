@@ -15,9 +15,8 @@ export default function Card({ title,
     image,
 }: ProjectCardProps) {
     return (
-        <div className="relative h-44 border-b border-zinc-700 bg-zinc-800">
-
-            <div className="flex h-44 items-center justify-center border-b border-zinc-700 bg-zinc-800">
+        <div className="border-b border-zinc-700 bg-zinc-800">
+            <div className="relative h-44 overflow-hidden border-b border-zinc-700 bg-zinc-800">
                 <Image
                     src={image}
                     alt={title}
