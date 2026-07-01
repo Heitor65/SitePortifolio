@@ -9,7 +9,6 @@ export default function Portifolio() {
 
             <Card title="Site Portifólio" description="Site de portfólio pessoal criado para apresentar meus projetos, habilidades e experiências como desenvolvedor." tech={["TypeScript", "React", "Next.js", "Tailwind CSS"]} repo="https://github.com/Heitor65/SitePortifolio.git" image="/images/cards/portifolio.png"/>
 
-            <Card title="Brasildocs" description="Biblioteca em Python para validação e geração de documentos brasileiros, como CPF, CNPJ e outros identificadores comuns no Brasil." tech={["Python", "Pytest"]} repo="https://github.com/Heitor65/brasildocs.git" image="/images/cards/portifolio.png"/>
 
             <Card title="API de feriados brasileiros" description="API REST que retorna exclusivamente feriados com respaldo jurídico nacional e estadual para setor privado e público, diferenciando feriados fixos, móveis baseados na Páscoa e datas específicas por UF." tech={["Python", "Flask", "Pydantic"]} repo="https://github.com/Heitor65/br-holidays-api.git" image="/images/cards/br_holidays2.png"/>
 
