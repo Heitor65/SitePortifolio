@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Heitor Lima",
     description: "Portfólio.",
-    url: "#",
+    url: "https://heitorlima.vercel.app/",
     siteName: "Heitor Lima",
     images: [
       {
