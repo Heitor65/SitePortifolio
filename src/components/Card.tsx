@@ -6,6 +6,8 @@ type ProjectCardProps = {
     tech?: string[];
     repo: string;
     image: string;
+    mostrar?: boolean;
+    desenvolvimento?: boolean;
 }
 
 export default function Card({ title,
@@ -13,6 +15,8 @@ export default function Card({ title,
     tech = [],
     repo,
     image,
+    mostrar,
+    desenvolvimento,
 }: ProjectCardProps) {
     return (
         <div className="border-b border-zinc-700 bg-zinc-800">
@@ -32,6 +36,11 @@ export default function Card({ title,
                     <h3 className="flex-1 text-lg font-semibold text-zinc-100">
                         {title}
                     </h3>
+                    {desenvolvimento && (
+                        <p className="text-xs font-semibold text-amber-400">
+                            Em Desenvolvimento
+                        </p>
+                    )}
                 </div>
 
                 <p className="mb-4 text-sm leading-6 text-zinc-400">
@@ -50,13 +59,15 @@ export default function Card({ title,
                 </div>
 
                 <div className="mt-5 flex gap-3 text-sm font-medium text-zinc-200">
-                    <a href={repo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="transition-colors hover:text-zinc-300"
-                    >
-                        Repo
-                    </a>
+                    {mostrar && (
+                        <a href={repo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="transition-colors hover:text-zinc-300"
+                        >
+                            Repo
+                        </a>
+                    )}
                 </div>
             </div>
         </div>
