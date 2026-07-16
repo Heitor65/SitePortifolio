@@ -37,7 +37,7 @@ export default function Card({ title,
                         {title}
                     </h3>
                     {desenvolvimento && (
-                        <p className="text-xs font-semibold text-amber-400">
+                        <p className="text-xs text-right font-semibold text-amber-400">
                             Em Desenvolvimento
                         </p>
                     )}
